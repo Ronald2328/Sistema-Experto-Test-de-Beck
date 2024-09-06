@@ -160,7 +160,7 @@ class SistemaExperto:
 
         nombre = self.nombre_entry.get()
 
-        if not validar_nombre(nombre): 
+        if not self.validar_nombre(nombre):
             # Mostrar un mensaje de error si el nombre está vacío
             tk.messagebox.showerror("Error", "El nombre no puede estar vacío.")
             return
