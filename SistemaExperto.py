@@ -136,7 +136,7 @@ class SistemaExperto:
             label = ttk.Label(frame_pregunta, text=str(valor + 1))
             label.pack(side="left")
 
-    def validar_nombre(nombre):
+    def validar_nombre(self, nombre):
         """
         Valida que el nombre no esté vacío.
 
